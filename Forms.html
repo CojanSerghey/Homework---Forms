@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Forms | Registration</title>
+    </head>
+    <body>
+        <form action="Confirmed.html">
+            
+            <h1>Create an account</h1>
+
+            <fieldset>
+                <legend>Personal data</legend>
+            Your full name: <input  required placeholder="Name" type="text"> <br>
+            Your phone num.:<input  required placeholder="Phone number" type="text"> <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Course selection</legend>
+            Choose the training program:
+            <br>
+
+            <select>
+                
+
+               <option>Html Basics Course</option>
+               <option>CSS Basics Course</option>
+
+            </select>
+            <br>
+            Choose the study hours:
+            <br>
+            <select>
+                <optgroup label="Morning"> 
+                <option>09:00</option>
+                <option>10:00</option>
+                </optgroup>
+                <optgroup label="Evening">
+                <option>19:00</option>
+                <option>20:00</option>
+                </optgroup>
+            </select>
+            </fieldset>
+            <br>
+
+            <input required placeholder="Terms" type="checkbox" id="I accept the terms and conditions" name="I accept the terms and conditions" >
+            <label for="terms and conditions">I accept the  <a href="Terms.html" target="_blank">terms</a>   and conditions  </label>
+            <hr>
+            <button>APPLY</button>
+
+        </form>
+        
+    </body>
+
+</html>
